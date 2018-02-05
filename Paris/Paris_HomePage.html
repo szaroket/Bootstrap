@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>PARIS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <style>
+        .container {
+            padding: 40px 40px;
+        }
+        .container h1 {
+            font-size: 40px;
+        }
+        .carousel-inner img {
+            -webkit-filter: grayscale(10%);
+            width: 100%;
+            margin: auto;
+        }
+        .person {
+            border: 10px solid transparent;
+            margin-bottom: 25px;
+            width: 65%;
+            height: 65%;
+            opacity: 0.9;
+        }
+        .person:hover {
+            border-color: #c3c3c3;
+        }
+        .bg-1 {
+            background: #696969;
+            color: #c7c7c7;
+        }
+        .bg-1 p {
+            font-style: italic;
+            color: black;
+            font-size: 15px;
+        }
+        .bg-1 h2 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Paris</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#myCarousel">Home</a></li>
+                <li><a href="#Paris">Paris</a></li>
+                <li><a href="#Tourist">Tourist Attractions</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Journey</a></li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="paris2.jpg" alt="Paris" />
+            </div>
+            <div class="item">
+                <img src="paris3.jpg" alt="Paris" />
+            </div>
+            <div class="item">
+                <img src="paris4.jpg" alt="Paris" />
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Information about Paris -->
+    <div id="Paris" class="container text-center">
+        <h1>PARIS</h1>
+        <br />
+        <p style="font-size: 18px">Paris is the capital and most populous city of France. City combines the stunning beauty of its rich historical legacy with intense cultural, academic, scientific, commercial and business activity.City is first well known for monuments, museums, restaurants, fashion and urban landscape. The French kings, who governed France until 1848, left many beautiful buildings, such as the palace of Versailles and the Louvre palace. The Catholic Church left an incredible number of great churches.</p>
+        <br />
+        <!-- Flags and coat of arms -->
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="text-center"><strong>French Flag</strong></p>
+                <br />
+                <a href="#demo" data-toggle="collapse">
+                    <img src="franceflag.jpg" class="img-circle person" alt="France Flag" />
+                </a>
+                <div id="demo" class="collapse">
+                    <p>The flag of France is a tricolour flag featuring three vertical bands coloured blue, white, and red. It is known to English speakers as the French Tricolour or simply the Tricolour.
+                       The royal government used many flags, the best known being a blue shield and gold fleur-de-lis on a white background, or state flag. Early in the French Revolution, the Paris militia, which played a prominent role in the storming of the Bastille, wore a cockade of blue and red, the city's traditional colours. According to Lafayette, white, the "ancient French colour", was added to the militia cockade to create a tricolour, or national, cockade. 
+                       This cockade became part of the uniform of the National Guard, which succeeded the militia and was commanded by Lafayette.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Paris Flag</strong></p>
+                <br />
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="parisflag.png" class="img-circle person" alt="Paris Flag" />
+                </a>
+                <div id="demo2" class="collapse">
+                    <p>The flag of Paris is vertically divided between the traditional colours of Paris, blue and red, both of which also feature in the city's coat of arms. Blue is identified with Saint Denis, red with Saint Martin.
+                       The colours of Paris are the origin of the blue and red stripes in the French flag, the white stripe symbolising the monarchy.The French flag's colours were adopted as a cocarde during the early stages of the French Revolution, when the country was still in the process of becoming a constitutional monarchy.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-center"><strong>Coat of arms of Paris</strong></p>
+                <br />
+                <a href="#demo3" data-toggle="collapse">
+                    <img src="parislogo.png" class="img-circle person" alt="Paris Herb" />
+                </a>
+                <div id="demo3" class="collapse">
+                    <p>The coat of arms of the city of Paris, in its current form, dates back to 1358. On the coat of arms, the represented vessel is the symbol of the powerful corporate body of the Marchands de l'eau (literally "water merchants"), dating back to the Middle Ages. The city motto, Fluctuat nec mergitur ("She is tossed by the waves, but does not sink") is equally a reference to this boat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tourist attractions -->
+    <div id="Tourist" class="bg-1">
+        <div class="container">
+            <h2 class="text-center">TOURIST ATTRACTIONS</h2>
+            <br />
+            <p class="text-center" style="font-size:18px">Here you can find the most important tourist attractions in Paris.</p>
+            <br />
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="tower.jpg" alt="Tower" style="width:100%" />
+                        <p><strong>The Eiffel Tower</strong></p>
+                        <p>More information</p>
+                        <a href="https://en.wikipedia.org/wiki/Eiffel_Tower">>CLICK<</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="arc.jpg" alt="Arc" style="width:100%" />
+                        <p><strong>Arc de Triomphe</strong></p>
+                        <p>More information</p>
+                        <a href="https://en.wikipedia.org/wiki/Arc_de_Triomphe">>CLICK<</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="notre.jpg" alt="Notre" style="width:100%" />
+                        <p><strong>Notre-Dame Cathedral</strong></p>
+                        <p>More information</p>
+                        <a href="https://en.wikipedia.org/wiki/Notre-Dame_de_Paris">>CLICK<</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
